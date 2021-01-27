@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ramaraja&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/index.css">
     <title>figma-assignment</title>
 </head>
 <body>
     <!--Logo-->
-    <header>
-        <h1 class="logo">Medi.</h1>
+    <header class="logo-header">
+        <h3 class="logo">Medi<span class="logodot">.</span></h3>
     </header> 
 
     <!--General Navigation-->
     <nav>
-        <button class="navbutton">Home</button>
-        <button class="navbutton">About</button>
-        <button class="navbutton">Blog</button>
-        <button class="navbutton">Contact</button>
+        <button class="homebutton">Home</button>
+        <button class="aboutbutton">About</button>
+        <button class="blogbutton">Blog</button>
+        <button class="contactbutton">Contact</button>
     </nav>
     
     <!--Login & Sign Up. 
     Wondering if a better design would be putting sign in in Navigation and sign up as a seperate button
     but right now I'm seperating these into one section for ease of handling-->
     <section class="access-container">
-        <button class="signin">Sign In</button>
-        <button class="Signup">Sign Up</button>
+        <button class="sign-in">Sign In</button>
+        <button class="sign-up">Sign Up</button>
     </section>
 
     <!--Main content-->
     <main>
         <!--Information-->
         <section class="main-info">
-            <h2 class="main-article-title">Stay Productive & <br>Work Remotely</h2>
-            <article class="main-article">The key to work-from-home success is to create an <br>
+            <h1 class="main-article-title">Stay Productive & Work Remotely</h1>
+            <p class="main-article">The key to work-from-home success is to create an <br>
             environment that allows you to focus on the task at hand. <br>
             Whether you are working from home for the first time.
-            </article>
+            </p>
+            <button class="learn-more-button">Learn More</button>
         </section>
         
         <!--Main Image-->
